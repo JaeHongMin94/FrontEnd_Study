@@ -1,33 +1,33 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
-.header{
+.header {
   background-color: white;
   border-bottom: 1px solid lightgray;
 }
-.container{
+.container {
   margin: auto;
   width: 980px;
 }
-.container-left{
-  padding:20px 0;
+.container-left {
+  padding: 20px 0;
 }
-.logo{
+.logo {
   float: left;
   margin-right: 5px;
 }
-.logo img{
+.logo img {
   display: block;
 }
-.menu{
+.menu {
   float: left;
 }
-.menu-item{
+.menu-item {
   float: left;
   padding: 8px 10px;
 }
-.clearfix::after{
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
