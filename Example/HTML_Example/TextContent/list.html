@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    article{
+      float: left;;
+    }
+    p{
+      clear: both;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <article>
+      <ul>
+        <li>
+          Apple
+          <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+          </ul>
+        </li>
+        <li>Banana</li>
+        <li>Mango</li>
+      </ul>
+    </article>
+
+    <article>
+      <ol type="1">
+        <li>
+          Apple
+          <ol start="4">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+          </ol>
+        </li>
+        <li>Banana</li>
+        <li>Mango</li>
+      </ol>
+    </article>
+
+    <article>
+      <ol type="a">
+        <li>
+          Apple
+          <ol>
+            <!-- value를 설정 후 다음에 한번 더 설정한다면 마지막으로 설정한 value의 값부터 다시 시작한다. -->
+            <li value="7">Apple</li>
+            <li value="99">Banana</li>
+            <li>Mango</li>
+          </ol>
+        </li>
+        <li>Banana</li>
+        <li>Mango</li>
+      </ol>
+    </article>
+
+    <article>
+      <ol type="A" reversed>
+        <li>
+          Apple
+          <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+          </ol>
+        </li>
+        <li>Banana</li>
+        <li>Mango</li>
+      </ol>
+    </article>
+
+    <article>
+      <ol type="I">
+        <li>
+          Apple
+          <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+          </ol>
+        </li>
+        <li>Banana</li>
+        <li>Mango</li>
+      </ol>
+    </article>
+
+    <article>
+      <ol type="i">
+        <li>
+          Apple
+          <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+          </ol>
+        </li>
+        <li>Banana</li>
+        <li>Mango</li>
+      </ol>
+    </article>
+  </section>
+  
+  <p>
+    <ol type="a">
+      <li>ol(Ordered List) - 정렬된 순서로 목록을 정의하는 태그입니다.</li>
+      <li>
+        ol태그의 속성으로 type, reversed, start가 존재합니다.
+        <ol>
+          <li>type은 항목이 메겨지는 번호의 유형을 설정하는 속성입니다.</li>
+          <li>reversed는 항목을 역순으로 설정하는 속성입니다.</li>
+          <li>start는 항목에 매겨지는 번호의 시작 값을 정하는 속성입니다.</li>
+        </ol>
+      </li>
+      <li>ul(Unordered List) - 순서의 상관없이 목록을 정의하는 태그입니다.</li>
+      <li>li(List Item) - 항목을 설정하는 태그입니다.</li>
+    </ol>
+    
+  </p>  
+
+</body>
+</html>
