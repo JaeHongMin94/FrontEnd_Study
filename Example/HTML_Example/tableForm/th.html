@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>th태그</title>
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+    td, th{
+      padding: 10px;
+      border: 1px solid red;
+    }
+    th{
+      background-color: lightgray;
+    }
+    h1{
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <table>
+    <tr>
+      <th rowspan="2" id="th-data">데이터</th>
+      <th abbr="Type" scope="col" headers="th-data">타입</th>      
+      <td>알파벳</td>
+      <td>숫자</td>
+    </tr>
+    <tr>
+      <th abbr="Value" scope="col" headers="th-data">값</th>
+      <td>A</td>
+      <td>7</td>
+    </tr>
+  </table>
+
+  <h1>th태그</h1>
+  <p>'머리글 칸'을 지정하는 태그입니다.</p>
+  <dl>
+    <dt>abbr</dt>
+    <dd>열에 대한 간단한 설명을 하는 태그입니다.</dd>
+    <dt>headers</dt>
+    <dd>관련된 하나 이상의 다른 머리글 칸 id속성 값</dd>
+    <dt>colspan</dt>
+    <dd>확장하려는(병합) 열의 수를 지정하는 속성입니다.</dd>
+    <dt>rowspan</dt>
+    <dd>확장하려는(병합) 행의 수를 지정하는 속성입니다.</dd>
+    <dt>scope</dt>
+    <dd>자신이 누구의 '머리글 칸'인지 명시하는 속성입니다.</dd>
+  </dl>
+
+</body>
+</html>
