@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>td태그</title>
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+    td, th{
+      padding: 10px;
+      border: 1px solid red;
+    }
+    th{
+      background-color: lightgray;
+    }
+    h1{
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <table>
+    <tr>
+      <th rowspan="2" id="th-data">데이터</th>
+      <th headers="th-data" id="th-type">타입</th>      
+      <td headers="th-type">알파벳</td>
+      <td headers="th-type">숫자</td>
+    </tr>
+    <tr>
+      <th headers="th-data" id="th-value">값</th>
+      <td headers="th-value">A</td>
+      <td headers="th-value">7</td>
+    </tr>
+  </table>
+
+  <h1>td태그</h1>
+  <p>'일반 칸'을 지정하는 태그입니다.</p>
+  <dl>
+    <dt>headers</dt>
+    <dd>관련된 하나 이상의 다른 머리글 칸 id속성 값</dd>
+    <dt>colspan</dt>
+    <dd>확장하려는(병합) 열의 수를 지정하는 속성입니다.</dd>
+    <dt>rowspan</dt>
+    <dd>확장하려는(병합) 행의 수를 지정하는 속성입니다.</dd>
+  </dl>
+
+</body>
+</html>
