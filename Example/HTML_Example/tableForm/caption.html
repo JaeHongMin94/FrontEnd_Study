@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>caption태그</title>
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+    td, th{
+      padding: 10px;
+      border: 1px solid red;
+    }
+    th{
+      background-color: lightgray;
+    }
+    h1{
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>데이터 타입과 값</caption>
+    <tr>
+      <th rowspan="2" id="th-data">데이터</th>
+      <th abbr="Type" scope="col" headers="th-data">타입</th>      
+      <td>알파벳</td>
+      <td>숫자</td>
+    </tr>
+    <tr>
+      <th abbr="Value" scope="col" headers="th-data">값</th>
+      <td>A</td>
+      <td>7</td>
+    </tr>
+  </table>
+
+  <h1>caption태그</h1>
+  <p>
+    표의 제목을 설정.<br>
+    - 열리는 table태그 바로 다음에 작성해야 합니다.<br>
+    - table당 하나의 caption만 사용가능 합니다.
+  </p>
+
+</body>
+</html>
