@@ -1,0 +1,25 @@
+.hover,
+.active {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  transition: 0.4s;
+}
+.hover:hover {
+  width: 200px;
+}
+.active:active {
+  width: 200px;
+  background-color: yellowgreen;
+}
+input {
+  width: 100px;
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 5px 10px;
+  transition: 0.4s;
+}
+input:focus {
+  width: 200px;
+  border-color: red;
+}
