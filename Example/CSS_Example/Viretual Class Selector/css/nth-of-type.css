@@ -1,0 +1,15 @@
+div p {
+  margin: 0;
+}
+.fruits p:nth-of-type(1) {
+  color: red;
+}
+ul {
+  padding: 0;
+}
+ul li:not(.cat) {
+  color: red;
+}
+li {
+  list-style: none;
+}
