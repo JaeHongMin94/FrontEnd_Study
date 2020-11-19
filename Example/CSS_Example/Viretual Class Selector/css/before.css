@@ -1,0 +1,12 @@
+ul {
+  padding: 0;
+}
+ul li::before {
+  content: "숫자";
+  font-weight: bold;
+  color: red;
+  margin-right: 10px;
+}
+li {
+  list-style: none;
+}
