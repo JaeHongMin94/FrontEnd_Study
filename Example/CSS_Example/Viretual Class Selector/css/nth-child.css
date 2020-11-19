@@ -1,0 +1,9 @@
+.first li:nth-child(2) {
+  color: red;
+}
+.second li:nth-child(2n) {
+  color: red;
+}
+.third li:nth-child(n + 3) {
+  color: red;
+}
