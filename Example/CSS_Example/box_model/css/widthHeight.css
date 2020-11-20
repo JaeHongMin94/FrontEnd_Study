@@ -1,0 +1,10 @@
+.width {
+  width: auto;
+  height: 100px;
+  background-color: tomato;
+}
+.height {
+  width: 100px;
+  height: auto;
+  background-color: greenyellow;
+}
