@@ -1,0 +1,14 @@
+.rgb {
+  color: rgb(255, 122, 153);
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
