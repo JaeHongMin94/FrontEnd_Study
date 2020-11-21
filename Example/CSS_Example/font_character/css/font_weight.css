@@ -1,0 +1,15 @@
+.weight {
+  font-size: 25px;
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
