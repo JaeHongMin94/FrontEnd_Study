@@ -1,0 +1,16 @@
+.serif {
+  font-size: 22px;
+  font-family: serif;
+}
+.sans-serif {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.monospace {
+  font-size: 22px;
+  font-family: monospace;
+}
+.cursive {
+  font-size: 22px;
+  font-family: cursive;
+}
