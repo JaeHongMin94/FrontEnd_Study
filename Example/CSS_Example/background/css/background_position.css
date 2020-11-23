@@ -1,0 +1,21 @@
+.box {
+  background-image: url("https://heropy.blog/css/images/vendor_icons/css3.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 550px;
+  height: 350px;
+  border: 2px dashed lightgray;
+}
+table {
+  border-collapse: collapse;
+  clear: both;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
