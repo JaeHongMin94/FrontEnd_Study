@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>background size</title>
+  <link rel="stylesheet" href="../css/background_size.css">
+</head>
+<body>
+
+  <fieldset>
+    <legend>background size</legend>
+    <div class="box"></div>
+    <p>배경 이미지의 크기를 지정</p>
+    <table>
+      <tr>
+        <th>값</th>
+        <th>의미</th>
+      </tr>
+      <tr>
+        <td>auto</td>
+        <td>배경 이미지가 원래의 크기로 표시됨(기본값)</td>
+      </tr>
+      <tr>
+        <td>단위</td>
+        <td>
+          - px, em, % 등 단위로 지정<br>
+          - width, height 형태로 입력 가능<br>
+          - width만 입력하면 비율에 맞게 지정됨
+        </td>
+      </tr>
+      <tr>
+        <td>cover</td>
+        <td>
+          - 배경 이미지의 크기 비율을 유지하며, 요소의 더 넓은 너비에 맞춰짐<br>
+          - 이미지가 잘릴 수 있습
+        </td>
+      </tr>
+      <tr>
+        <td>contain</td>
+        <td>
+          - 배경 이미지의 크기 비율을 유지하며, 요소의 더 짧은 너비에 맞춰짐<br>
+          - 이미지가 잘리지 않음
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+
+</body>
+</html>
