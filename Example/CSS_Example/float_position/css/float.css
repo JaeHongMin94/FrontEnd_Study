@@ -36,7 +36,7 @@ td {
 }
 
 /* 세번째 방법 */
-.parent2::after {
+.clearfix::after {
   content: "";
   clear: both;
   display: block;
