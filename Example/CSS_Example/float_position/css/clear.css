@@ -1,0 +1,22 @@
+.clearfix::after {
+  clear: both;
+}
+span {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: tomato;
+  float: right;
+}
+table {
+  border-collapse: collapse;
+  clear: both;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
