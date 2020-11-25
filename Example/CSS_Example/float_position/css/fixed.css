@@ -1,0 +1,32 @@
+body {
+  height: 3000px;
+}
+.grand-parent {
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  border: 4px dashed lightgray;
+}
+.parent {
+  width: 400px;
+  height: 300px;
+  border: 4px dashed gray;
+  position: relative;
+}
+.child {
+  margin: 10px;
+  width: 120px;
+  height: 80px;
+  border: 4px dashed red;
+  background-color: tomato;
+  border-radius: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.absolute {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
