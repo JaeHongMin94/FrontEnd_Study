@@ -11,6 +11,7 @@
   <fieldset>
     <legend>transition</legend>
     <div class="box"></div>
+    <div class="step">step</div>
     <p>css 속성의 전환 효과를 지정</p>
     <table>
       <tr>
@@ -30,13 +31,56 @@
       </tr>
       <tr>
         <td>transition-timing-function</td>
-        <td>타이밍 함수 지정</td>
+        <td>타이밍 함수(애니메이션 전환 효과를 계산하는 방법) 지정</td>
         <td>ease</td>
       </tr>
       <tr>
         <td>transition-delay</td>
         <td>전환 효과의 대기시간 설정</td>
         <td>0s</td>
+      </tr>
+    </table>
+    <table>
+      <caption>transition-timing-function</caption>
+      <tr>
+        <th>값</th>
+        <th>의미</th>
+        <th>cubic Bezier값</th>
+      </tr>
+      <tr>
+        <td>ease</td>
+        <td>빠르게 - 느리게</td>
+        <td>cubic-bezier(.25, .1, .25, .1)</td>
+      </tr>
+      <tr>
+        <td>linear</td>
+        <td>일정하게</td>
+        <td>cubic-bezier(0, 0, 1, 1)</td>
+      </tr>
+      <tr>
+        <td>ease-in</td>
+        <td>느리게 - 빠르게</td>
+        <td>cubic-bezier(.42, 0, 1, 1)</td>
+      </tr>
+      <tr>
+        <td>ease-out</td>
+        <td>빠르게 - 느리게</td>
+        <td>cubic-bezier(0, 0, .58, .1)</td>
+      </tr>
+      <tr>
+        <td>ease-in-out</td>
+        <td>느리게 - 빠르게 - 느리게</td>
+        <td>cubic-bezier(.42, 0, .58, 1</td>
+      </tr>
+      <tr>
+        <td>cubic-bezier(n,n,n,n)</td>
+        <td>자신만의 값을 정의(0~1)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>steps</td>
+        <td>n번 분할된 애니메이션</td>
+        <td></td>
       </tr>
     </table>
   </fieldset>
