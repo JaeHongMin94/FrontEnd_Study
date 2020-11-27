@@ -1,0 +1,18 @@
+img {
+  margin-left: 100px;
+  width: 300px;
+  border: 1px solid lightgray;
+  transform: perspective(500px) rotateX(45deg);
+}
+table {
+  border-collapse: collapse;
+  clear: both;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
