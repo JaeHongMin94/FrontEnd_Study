@@ -1,0 +1,40 @@
+.box {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background: tomato;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.box:hover {
+  transform: translate(30px, 30px);
+}
+.scale {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.scale:hover {
+  transform: translate(50px, 50px) scale(2);
+}
+table {
+  border-collapse: collapse;
+  clear: both;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
