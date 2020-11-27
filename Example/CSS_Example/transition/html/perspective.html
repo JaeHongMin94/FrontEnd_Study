@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>perspective</title>
+  <link rel="stylesheet" href="../css/perspective.css">
+</head>
+<body>
+
+  <fieldset>
+    <legend>perspective</legend>
+    <div class="perspective">
+      <div class="grand-parent">
+        <div class="parent">
+          <img src="https://heropy.blog/css/images/logo.png" alt="HEROPY">
+        </div>
+      </div>
+    </div>
+    <p>하위 요소를 관찰하는 원근거리를 설정</p>
+    <table>
+      <caption>perspective속성과 함수의 차이점</caption>
+      <tr>
+        <th>속성/함수</th>
+        <th>적용대상</th>
+        <th>기준점 설정</th>
+      </tr>
+      <tr>
+        <td>perspective</td>
+        <td>관찰 대상의 부모 요소</td>
+        <td>perspective-origin</td>
+      </tr>
+      <tr>
+        <td>trnasform: perspective()</td>
+        <td>관찰 대상</td>
+        <td>transform-origin</td>
+      </tr>
+    </table>
+  </fieldset>
+
+</body>
+</html>
