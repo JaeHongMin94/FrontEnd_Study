@@ -1,0 +1,21 @@
+img {
+  width: 200px;
+  border: 1px solid lightgray;
+  transition: 1s;
+  transform-origin: right bottom;
+}
+img:hover {
+  transform: rotate(45deg);
+}
+table {
+  border-collapse: collapse;
+  clear: both;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
