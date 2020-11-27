@@ -1,0 +1,37 @@
+.perspective {
+  width: 200px;
+  perspective: 500px;
+  padding: 70px;
+}
+.grand-parent {
+  width: 200px;
+  border: 3px solid dodgerblue;
+  transition: 1s;
+  transform: rotateX(-45deg);
+  transform-style: preserve-3d;
+}
+.parent {
+  width: 200px;
+  border: 3px solid tomato;
+  transition: 1s;
+  transform: rotateY(45deg);
+  transform-style: preserve-3d;
+}
+img {
+  width: 200px;
+  border: 3px solid lightgray;
+  transition: 1s;
+  transform: rotateX(45deg);
+}
+table {
+  border-collapse: collapse;
+  clear: both;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
