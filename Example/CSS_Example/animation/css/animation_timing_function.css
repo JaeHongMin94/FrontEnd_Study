@@ -1,0 +1,52 @@
+.box {
+  margin: 10px;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+.box1 {
+  background: tomato;
+}
+.box2 {
+  background: dodgerblue;
+}
+.box3 {
+  background: yellowgreen;
+}
+.box1:hover {
+  animation: size-up 1s infinite alternate linear;
+  animation-timing-function: linear;
+}
+.box2:hover {
+  animation: size-up 1s infinite alternate;
+  animation-timing-function: ease-in;
+}
+.box3:hover {
+  animation: size-up 1s infinite alternate;
+  animation-timing-function: ease-out;
+}
+@keyframes size-up {
+  0% {
+    width: 150px;
+  }
+  100% {
+    width: 500px;
+  }
+}
+table {
+  border-collapse: collapse;
+  clear: both;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
