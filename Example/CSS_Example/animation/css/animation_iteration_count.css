@@ -1,0 +1,54 @@
+.box {
+  margin: 30px;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+.box1 {
+  background: tomato;
+}
+.box2 {
+  background: dodgerblue;
+}
+.box1:hover {
+  animation: movemove 2s;
+  animation-iteration-count: 2;
+}
+.box2:hover {
+  animation: movemove 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes movemove {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100px, 0);
+  }
+  50% {
+    transform: translate(100px, 100px);
+  }
+  75% {
+    transform: translate(0, 100px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+table {
+  border-collapse: collapse;
+  clear: both;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
