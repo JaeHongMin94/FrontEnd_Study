@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>justify-content</title>
+  <link rel="stylesheet" href="../css/justify_content.css">
+</head>
+<body>
+
+  <fieldset>
+    <legend>justify-content</legend>
+    <div class="container">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+    </div>
+    <div class="container flex-end">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+    </div>
+    <div class="container center">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+    </div>
+    <div class="container space-between">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+    </div>
+    <div class="container sapce-around">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+    </div>
+    <p>주 축(main-axis)의 정렬 방법을 설정합니다.</p>
+    <table>
+      <tr>
+        <th>값</th>
+        <th>의미</th>
+      </tr>
+      <tr>
+        <td>flex-start</td>
+        <td>Items를 시작점(flex-start)으로 정렬</td>
+      </tr>
+      <tr>
+        <td>flex-end</td>
+        <td>Items를 끝점(flex-end)으로 정렬</td>
+      </tr>
+      <tr>
+        <td>center</td>
+        <td>Items를 가운데 정렬</td>
+      </tr>
+      <tr>
+        <td>space-between</td>
+        <td>시작 Item은 시작점에, 마지막 Item은 끝점에 정렬되고 나머지 Items는 사이에 고르게 정렬됨</td>
+      </tr>
+      <tr>
+        <td>space-around</td>
+        <td>Items를 균등한 여백을 포함하여 정렬</td>
+      </tr>
+    </table>
+  </fieldset>
+
+</body>
+</html>
