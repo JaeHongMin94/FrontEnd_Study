@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grid-temlate-rows</title>
+  <link rel="stylesheet" href="../css/grid_temlate_rows.css">
+</head>
+<body>
+
+  <fieldset>
+    <legend>grid-temlate-rows</legend>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <p>
+      명시적 행(Track)의 크기를 정의합니다.<br>
+      동시에 라인(Line)의 이름도 정의할 수 있습니다.<br>
+      fr(fraction, 공간 비율) 단위를 사용할 수 있습니다.<br>
+      repeat() 함수를 사용할 수 있습니다.     
+    </p>
+    <table>
+      <tr>
+        <th>속성</th>
+        <th>의미</th>
+      </tr>
+      <tr>
+        <td>display</td>
+        <td>그리드 컨테이너(Container)를 정의</td>
+      </tr>
+      <tr>
+        <td>grid-template-rows</td>
+        <td>명시적 행(Track)의 크기를 정의</td>
+      </tr>
+      <tr>
+        <td>grid-template-columns</td>
+        <td>명시적 열(Track)의 크기를 정의</td>
+      </tr>
+      <tr>
+        <td>grid-template-areas</td>
+        <td>영역(Area) 이름을 참조해 템플릿 생성</td>
+      </tr>
+      <tr>
+        <td>grid-template</td>
+        <td><code>grid-template-xxx</code>의 단축 속성</td>
+      </tr>
+      <tr>
+        <td>row-gap(grid-row-gap)</td>
+        <td>행과 행 사이의 간격(Line)을 정의</td>
+      </tr>
+      <tr>
+        <td>column-gap(grid-column-gap)</td>
+        <td>열과 열 사이의 간격(Line)을 정의</td>
+      </tr>
+      <tr>
+        <td>gap(grid-gap)</td>
+        <td><code>xxx-gap</code>의 단축 속성</td>
+      </tr>
+      <tr>
+        <td>grid-auto-rows</td>
+        <td>암시적인 행(Track)의 크기를 정의</td>
+      </tr>
+      <tr>
+        <td>grid-auto-columns</td>
+        <td>암시적인 열(Track)의 크기를 정의</td>
+      </tr>
+      <tr>
+        <td>grid-auto-flow</td>
+        <td>자동 배치 알고리즘 방식을 정의</td>
+      </tr>
+      <tr>
+        <td>grid</td>
+        <td><code>grid-template-xxx</code>과 <code>grid-auto-xxx</code>의 단축 속성</td>
+      </tr>
+      <tr>
+        <td>align-content</td>
+        <td>그리드 콘텐츠(Grid Contents)를 수직(열 축) 정렬</td>
+      </tr>
+      <tr>
+        <td>justify-content</td>
+        <td>그리드 콘텐츠를 수평(행 축) 정렬</td>
+      </tr>
+      <tr>
+        <td>place-content</td>
+        <td><code>align-content</code>와 <code>justify-content</code>의 단축 속성</td>
+      </tr>
+      <tr>
+        <td>align-items</td>
+        <td>그리드 아이템(Items)들을 수직(열 축) 정렬</td>
+      </tr>
+      <tr>
+        <td>justify-items</td>
+        <td>그리드 아이템들을 수평(행 축) 정렬</td>
+      </tr>
+      <tr>
+        <td>place-items</td>
+        <td><code>align-items</code>와 <code>justify-items</code>의 단축 속성</td>
+      </tr>
+    </table>
+  </fieldset>
+
+</body>
+</html>
