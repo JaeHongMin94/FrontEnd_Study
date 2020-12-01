@@ -1,0 +1,21 @@
+.container {
+  display: inline-grid;
+  width: 400px;
+  height: 300px;
+  border: 4px solid lightgray;
+}
+.item {
+  border: 2px dashed red;
+}
+table {
+  border-collapse: collapse;
+  clear: both;
+}
+th {
+  padding: 5px 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+}
