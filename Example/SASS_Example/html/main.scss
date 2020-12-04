@@ -1,8 +1,30 @@
-.container {
-  $size: 100px;
-  .item {
-    width: $size * 3;
-    height: $size;
-    background: tomato;
+h1 {
+  text-align: center;
+}
+fieldset {
+  legend {
+    h2 {
+      font-size: 25px;
+      font-weight: 700;
+    }
   }
+}
+table {
+  border-collapse: collapse;
+  th {
+    padding: 5px;
+    border: 1px solid;
+  }
+  td {
+    padding: 5px;
+    border: 1px solid;
+  }
+}
+code {
+  background: #f8f8f8;
+  color: #e96900;
+  padding: 3px 5px;
+  margin: 0 2px;
+  border-radius: 5px;
+  white-space: noerap;
 }

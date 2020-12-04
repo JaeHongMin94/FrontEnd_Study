@@ -1,7 +1,31 @@
-.container .item {
-  width: 300px;
-  height: 100px;
-  background: tomato;
+h1 {
+  text-align: center;
+}
+
+fieldset legend h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+}
+table th {
+  padding: 5px;
+  border: 1px solid;
+}
+table td {
+  padding: 5px;
+  border: 1px solid;
+}
+
+code {
+  background: #f8f8f8;
+  color: #e96900;
+  padding: 3px 5px;
+  margin: 0 2px;
+  border-radius: 5px;
+  white-space: noerap;
 }
 
 /*# sourceMappingURL=/main.39afc03c.css.map */
