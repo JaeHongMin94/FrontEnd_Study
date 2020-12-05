@@ -8,72 +8,77 @@
 <script src="/main.39afc03c.js"></script></head>
 <body>
   
-  <h1>scss 정리</h1>
+  <header>
+    <h1>scss 정리</h1>
+  </header>
 
-  <fieldset>
-    <legend><h2>데이터 종류</h2></legend>
-    <table>
-      <tr>
-        <th>데이터</th>
-        <th>설명</th>
-        <th>예시</th>
-      </tr>
-      <tr>
-        <td>Numbers</td>
-        <td>숫자</td>
-        <td><code>1</code>, <code>.82</code>, <code>20px</code>, <code>2em</code> ····</td>
-      </tr>
-      <tr>
-        <td>String</td>
-        <td>문자</td>
-        <td><code>bold</code>, <code>relative</code>, <code>"/images/a.png"</code>, <code>"dotum"</code></td>
-      </tr>
-      <tr>
-        <td>Colors</td>
-        <td>색상 표현</td>
-        <td><code>red blue</code>, <code>#FFFF00</code>, <code>rgba(2555, 0, 0, .5)</code></td>
-      </tr>
-      <tr>
-        <td>Booleans</td>
-        <td>논리</td>
-        <td><code>true</code>, <code>false</code></td>
-      </tr>
-      <tr>
-        <td>Nulls</td>
-        <td>아무것도 없음</td>
-        <td><code>null</code></td>
-      </tr>
-      <tr>
-        <td>Lists</td>
-        <td>공백이나 ,로 구분된 값의 목록</td>
-        <td><code>(apple, orange, banana)</code>, <code>apple orange</code></td>
-      </tr>
-      <tr>
-        <td>Maps</td>
-        <td>Lists와 유사하나 값이 <code>Key: Value</code> 형태</td>
-        <td><code>(apple: a, orange: o, banana: b)</code></td>
-      </tr>
-    </table>
-    <h3>특이사항</h3>
-    <hr>
-    <p>Sass에서 사용하는 데이터 종류들의 몇 가지 특이사항을 소개합니다.</p>
-    <ul>
-      <li>Numbers: 숫자에 단위가 있거나 없습니다.</li>
-      <li>Strings: 문자에 따옴표가 있거나 없습니다.</li>
-      <li>Nulls: 속성값으로 <code>null</code>이 사용되면 컴파일하지 않습니다.</li>
-      <li>Lists: <code>()</code>를 붙이거나 붙이지 않습니다.</li>
-      <li>Maps: <code>()</code>를 꼭 붙여야 합니다.</li>
-    </ul>
-  </fieldset>
-
-  <fieldset>
-    <legend><h2>중첩(Nesting)</h2></legend>
-    <p>
-      Sass는 중첩 기능을 사용할 수 있습니다.<br>
-      상위 선택자의 반복을 피하고 좀 더 편리하게 복잡한 구조를 작성할 수 있습니다.
-    </p>
-    <code class="scss"></code>
-  </fieldset>
+  <section>
+    <article>
+      <h2>데이터 종류</h2>
+      <table>
+        <tr>
+          <th>데이터</th>
+          <th>설명</th>
+          <th>예시</th>
+        </tr>
+        <tr>
+          <td>Numbers</td>
+          <td>숫자</td>
+          <td><code>1</code>, <code>.82</code>, <code>20px</code>, <code>2em</code> ····</td>
+        </tr>
+        <tr>
+          <td>String</td>
+          <td>문자</td>
+          <td><code>bold</code>, <code>relative</code>, <code>"/images/a.png"</code>, <code>"dotum"</code></td>
+        </tr>
+        <tr>
+          <td>Colors</td>
+          <td>색상 표현</td>
+          <td><code>red blue</code>, <code>#FFFF00</code>, <code>rgba(2555, 0, 0, .5)</code></td>
+        </tr>
+        <tr>
+          <td>Booleans</td>
+          <td>논리</td>
+          <td><code>true</code>, <code>false</code></td>
+        </tr>
+        <tr>
+          <td>Nulls</td>
+          <td>아무것도 없음</td>
+          <td><code>null</code></td>
+        </tr>
+        <tr>
+          <td>Lists</td>
+          <td>공백이나 ,로 구분된 값의 목록</td>
+          <td><code>(apple, orange, banana)</code>, <code>apple orange</code></td>
+        </tr>
+        <tr>
+          <td>Maps</td>
+          <td>Lists와 유사하나 값이 <code>Key: Value</code> 형태</td>
+          <td><code>(apple: a, orange: o, banana: b)</code></td>
+        </tr>
+      </table>
+      <h3>특이사항</h3>
+      <hr>
+      <p>Sass에서 사용하는 데이터 종류들의 몇 가지 특이사항을 소개합니다.</p>
+      <ul>
+        <li>Numbers: 숫자에 단위가 있거나 없습니다.</li>
+        <li>Strings: 문자에 따옴표가 있거나 없습니다.</li>
+        <li>Nulls: 속성값으로 <code>null</code>이 사용되면 컴파일하지 않습니다.</li>
+        <li>Lists: <code>()</code>를 붙이거나 붙이지 않습니다.</li>
+        <li>Maps: <code>()</code>를 꼭 붙여야 합니다.</li>
+      </ul>
+    </article>
+  
+    <article>
+      <h2>중첩(Nesting)</h2>
+      <p>
+        Sass는 중첩 기능을 사용할 수 있습니다.<br>
+        상위 선택자의 반복을 피하고 좀 더 편리하게 복잡한 구조를 작성할 수 있습니다.
+      </p>
+      <code class="scss"></code>
+    </article>
+  </section>
+  
 
 </body>
 </html>
