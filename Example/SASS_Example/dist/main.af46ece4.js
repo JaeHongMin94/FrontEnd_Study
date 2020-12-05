@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"C:/Users/moons/AppData/Roaming/npm-cache/_npx/4164/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"C:/Users/moons/AppData/Roaming/npm-cache/_npx/1928/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"C:/Users/moons/AppData/Roaming/npm-cache/_npx/4164/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"C:/Users/moons/AppData/Roaming/npm-cache/_npx/1928/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/moons/AppData/Roaming/npm-cache/_npx/4164/node_modules/parcel/src/builtins/bundle-url.js"}],"main.scss":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/moons/AppData/Roaming/npm-cache/_npx/1928/node_modules/parcel/src/builtins/bundle-url.js"}],"main.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"C:/Users/moons/AppData/Roaming/npm-cache/_npx/4164/node_modules/parcel/src/builtins/css-loader.js"}],"C:/Users/moons/AppData/Roaming/npm-cache/_npx/4164/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"C:/Users/moons/AppData/Roaming/npm-cache/_npx/1928/node_modules/parcel/src/builtins/css-loader.js"}],"C:/Users/moons/AppData/Roaming/npm-cache/_npx/4164/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -394,4 +394,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["C:/Users/moons/AppData/Roaming/npm-cache/_npx/4164/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/main.39afc03c.js.map
+//# sourceMappingURL=/main.af46ece4.js.map

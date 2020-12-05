@@ -75,7 +75,29 @@
         Sass는 중첩 기능을 사용할 수 있습니다.<br>
         상위 선택자의 반복을 피하고 좀 더 편리하게 복잡한 구조를 작성할 수 있습니다.
       </p>
-      <code class="scss"></code>
+      <p>SCSS:</p>
+      <pre><code class="scss" data-lang="SCSS"><span class="selector-class">.section</span> {
+  <span class="attribute">width</span>: <span class="number">100%</span>;
+  <span class="selector-class">.list</span> {
+    <span class="attribute">padding</span>: <span class="number">20px</span>;
+    <span class="selector-tag">li</span> {
+      <span class="attribute">float</span>: left;
+    }
+  }
+}
+      </code></pre>
+      
+      <p>CSS:</p>
+      <pre><code class="scss" data-lang="CSS"><span class="selector-class">.section</span> {
+  <span class="attribute">width</span>: <span class="number">100%</span>;
+}
+<span class="selector-class">.section</span> <span class="selector-class">.list</span> {
+  <span class="attribute">padding</span>: <span class="number">20px</span>;
+}
+<span class="selector-class">.section</span> <span class="selector-class">.list</span> <span class="selector-tag">li</span> {
+  <span class="attribute">float</span>: left;
+}
+      </code></pre>
     </article>
   </section>
   
