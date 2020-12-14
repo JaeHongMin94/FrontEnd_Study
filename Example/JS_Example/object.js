@@ -58,4 +58,101 @@ console.log(h, typeof h);
 console.log();
 
 // 프로토타입 체인
-console.log(this);
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  // this.hello = function () {
+  //   console.log('hello', this.name, this, age);
+  // };
+}
+
+Person.prototype.hello = function () {
+  console.log('hello', this.name, this.age);
+};
+
+const p = new Person('Min', 27);
+
+p.hello();
+console.log(p.toString());
+
+console.log(Person.prototype);
+console.log(Person.prototype.toString);
+console.log(Person.prototype.constructor);
+console.log(Person.prototype.hello);
+
+console.log(Object.prototype);
+console.log(Object.prototype.toString);
+console.log(Object.prototype.constructor);
+
+console.log(p instanceof Person);
+console.log(p instanceof Object);
+
+console.log();
+
+// 프로토타입을 이용한 객체 확장
+function Person2() {}
+
+Person2.prototype.hello = function () {
+  console.log('hello');
+};
+
+function Korean(region) {
+  this.region = region;
+  this.where = function () {
+    console.log('where', this.region);
+  };
+}
+
+Korean.prototype = Person2.prototype;
+
+const k = new Korean('Seoul');
+k.hello();
+k.where();
+
+console.log(k instanceof Korean);
+console.log(k instanceof Person2);
+console.log(k instanceof Object);
+
+console.log();
+
+// 객체 리터럴
+const aa = {};
+console.log(aa, typeof aa);
+
+const bb = {
+  name: 'Min',
+};
+console.log(bb, typeof bb);
+
+const cc = {
+  name: 'Min',
+  hello1() {
+    console.log('hello1', this);
+  },
+  hello2: function () {
+    console.log('hello2', this);
+  },
+  hello3: () => {
+    console.log('hello3', this);
+  },
+};
+
+cc.hello1();
+cc.hello2();
+cc.hello3();
+
+console.log();
+
+// 표준 내장 객체 : Array
+const area = new Array('red', 'green', 'blue');
+console.log(area, typeof area);
+console.log(area instanceof Array);
+console.log(area instanceof Object);
+
+const area2 = ['black', 'gray', 'white'];
+console.log(area2, typeof area2);
+console.log(area2 instanceof Array);
+console.log(area2 instanceof Object);
+
+console.log(area2.slice(0, 2));
+console.log(Array.prototype.slice, Object.prototype.slice);
