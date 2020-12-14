@@ -78,4 +78,4 @@ const sy4 = Symbol('Min');
 console.log(sy, typeof sy);
 console.log(sy2, typeof sy2);
 console.log(sy3, typeof sy3);
-console.log(sy3 == sy4);
+console.log(sy3 == sy4); // Symbol은 고유한 값이 있기때문에 false 출력
