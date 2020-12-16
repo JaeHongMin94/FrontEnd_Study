@@ -127,13 +127,13 @@ console.log(bb, typeof bb);
 const cc = {
   name: 'Min',
   hello1() {
-    console.log('hello1', this);
+    console.log('hello1', this.name);
   },
   hello2: function () {
-    console.log('hello2', this);
+    console.log('hello2', this.name);
   },
   hello3: () => {
-    console.log('hello3', this);
+    console.log('hello3', this.name);
   },
 };
 
