@@ -124,3 +124,8 @@ function bye(c) {
 bye(function () {
   console.log('콜백');
 });
+
+// 함수의 기본 파라미터
+const calculateCircleArea = (r = 1) => Math.PI * r * r;
+const area = calculateCircleArea();
+console.log(area);
