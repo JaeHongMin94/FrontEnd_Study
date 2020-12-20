@@ -70,17 +70,29 @@ else console.log('n은 3의 배수도 아니고, 5의 배수도 아닙니다.');
   논리 연산자를 이용한 조건문 평가
   &&, ||, !
 */
-// 표현식 && 표현식
+// 표현식 && 표현식, &&는 앞에 조건식이 false면 뒤에 조건식은 계산하지 않고 false가 된다.
 if (true && true) console.log('두개 모두 참이면 참');
 if (true && false) console.log('한개만 참이면 거짓');
 if (false && true) console.log('한개만 참이면 거짓');
 if (false && false) console.log('두개 모두 거짓이면 거짓');
 
-// 표현식 || 표현식
+// 표현식 || 표현식, ||는 앞에 조건식이 true면 뒤에 조건식은 계산하지 않고 true가 된다.
 if (true || true) console.log('두개 모두 참이면 참');
 if (true || false) console.log('한개만 참이면 참');
 if (false || true) console.log('한개만 참이면 참');
 if (false || false) console.log('두개 모두 거짓이면 거짓');
+
+const namelessDog = {
+  name: '뭉뭉이',
+};
+
+function getName(animal) {
+  const name = animal && animal.name;
+  return name || '이름이 없는 동물입니다.';
+}
+
+const name = getName(namelessDog);
+console.log(name);
 
 // !표현식
 if (!true) console.log('참이면 거짓');
@@ -122,3 +134,23 @@ const array = [];
 let text =
   array.length === 0 ? '배열이 비어있습니다.' : '배열이 비어있지 않습니다.';
 console.log(text);
+
+// 조건문을 더 스마트하게 사용하기
+function isAnimal(text) {
+  return (
+    text === '고양이' || text === '개' || text === '거북이' || text === '너구리'
+  );
+}
+console.log(isAnimal('개'));
+console.log(isAnimal('노트북'));
+
+function isAnimal2(text) {
+  const animals = ['고양이', '개', '거북이', '너구리'];
+  return animals.includes(text);
+}
+console.log(isAnimal2('개'));
+console.log(isAnimal2('노트북'));
+
+const isAnimal3 = (text) => ['고양이', '개', '거북이', '너구리'].includes(text);
+console.log(isAnimal3('개'));
+console.log(isAnimal3('노트북'));
