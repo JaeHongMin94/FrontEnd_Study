@@ -182,6 +182,37 @@ print(captainAmerica);
 
 console.log();
 
+const object = { a: 1 };
+
+function print2({ a, b = 2 }) {
+  console.log(a);
+  console.log(b);
+}
+print2(object);
+
+console.log();
+
+const deepObject = {
+  state: {
+    information: {
+      name: 'MinJaeHong',
+      languages: ['korean', 'english', 'chinese'],
+    },
+  },
+  value: 5,
+};
+
+const { name, languages } = deepObject.state.information;
+const { value } = deepObject;
+
+const extracted = {
+  name,
+  languages,
+  value,
+};
+
+console.log(extracted);
+
 // 객체 안에 함수 넣기
 const dog = {
   name: '멍멍이',
